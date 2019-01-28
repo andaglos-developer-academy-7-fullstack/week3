@@ -17,11 +17,14 @@ function xo(str) {
       myO++
     }
   }
-  if (myX === myO) {
-    return true;
-  } else {
-    return false;
-  }
+//   if (myX === myO) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+  
+  //cara mudah dan lebih cepat dalam penulisan if dan else
+  return myX === myO ? true : false
 }
 
 // TEST CASES
