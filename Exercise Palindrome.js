@@ -14,11 +14,15 @@ function palindrome(kata) {
   for (let i = kata.length-1; i >= 0; i--) {
     atak += kata[i];
   }
-  if (kata === atak) {
-    return true;
-  } else {
-    return false;
-  }
+  
+  //perbaikan
+//   if (kata === atak) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+  //perbaikan
+  return kata === atak ? true : false;
 }
 
 // TEST CASES
